@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, #002339, #0dcaf0
+    );
+    color: #fff;
+}
+.container{
+    margin-top: 12%;
+}
+.display{
+    width: 68%;
+}
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+.display input{
+    outline: 0;
+    font-size: 1.3rem;
+}
+.container button img{
+    width: 28px;
+}
+.container button{
+    outline: 0;
+    background: linear-gradient(#0dcaf0, #065666);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.container button:active{
+    background: linear-gradient(#0dcaf073, #06566670);
+
+}
+.rounded-pill:hover{
+    background-color: rgb(209, 209, 209);
+}
+.rounded-pill:active{
+    background-color: rgba(209, 209, 209, 0.507);
+}
+select{
+    border: 0;
+    outline: 0;
+    background: linear-gradient(#0dcaf0, #065666);
+}
+
